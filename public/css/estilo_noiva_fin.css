@@ -1,0 +1,648 @@
+@charset "utf-8";
+/* CSS Document */
+/*FOLHA DE ESTILO*/
+body
+{
+	/*background-image: url(teste_fundo_2.jpg);ato falho, tentativa de cortar um pedaço do fundo do layout
+	background-repeat: repeat-x;*/
+	background-color: white;
+	background-image: url(fundao_.png);
+	align-content: center;
+	
+}
+/*
+.clear
+{
+	clear: both;
+}*/
+p
+{
+	margin-top: 10px;
+	float: left;
+	font-size: 10px;
+	margin-left: 20px;
+}
+
+#fundo_geral
+{
+	/*background-image: url(fundao_.png); ;/*mudar para rgb
+	background-repeat: repeat;*/
+	background-color: #ffffff;
+	height: 1290px;
+	width: 1200px;
+	margin-left: 75px;
+	position: absolute;
+}
+/* ------------------- divs relacionadas ao topo do site -------------------*/
+#topo
+{
+	background-color:#ecc8ca;/*mudar para rgb*/
+	background-image: url(vector_logo_LOGO.png);
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 1200px;
+	
+}
+.topo_text p
+{
+	
+	font-family: Brush Script MT;
+	font-size: 30px;
+	padding-top: 3px;
+	margin-right: 0px;
+	margin-left:500px;
+}
+/*------------------------- barra de pesquisa (adaptado da internet) ------------*/
+#icon_lupa_
+{
+	float: right;
+	margin-right: 2px;
+	padding-top: 0.2px;
+	margin-top: 8px;
+}
+
+#box_pesquisa
+{
+	background-color:#e6e6e6;
+  	border:solid 1px;
+  	border-radius:15px;
+  	width:200px;
+  	height: 25px;
+  	float: right;
+  	margin-right: 20px;
+  	align-items: center;
+  	padding-top: 0.2px;
+  	margin-top: 10px;
+}
+
+#txt_pesquisa{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:12px;
+  border:none;
+  height:20px;
+  width:180px;
+}
+/*-------------------------------------------------------------------------*/
+/*-------------------------- menu principal ----------------------------- */
+
+.menu_principal
+{
+	height:60px;
+	width:1200px;
+	background-color:#de9c9f;
+	background-repeat:repeat-x repeat-y;
+	
+	
+}
+
+#home
+{
+	background-color:transparent;
+	background-image:url(HOME.png);
+	background-repeat:no-repeat;
+	height:40px;
+	width:120px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:230px;
+	float:left;
+	
+}
+#home:hover
+{
+	background-image:url(HOME_1.png);
+	background-repeat:no-repeat;
+}
+
+#sobre
+{
+	background-color:transparent;
+	background-image:url(SOBRENOS.png);
+	height:40px;
+	width:120px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	background-repeat:no-repeat;
+}
+
+#sobre:hover
+{
+	background-image:url(SOBRENOS_1.png);
+	background-repeat:no-repeat;
+}
+#galeria
+{
+	background-color:transparent;
+	background-image:url(GALERIA.png);
+	height:40px;
+	width:120px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	
+}
+#galeria:hover
+{
+	background-image:url(GALERIA_1.png);
+	background-repeat:no-repeat;
+}
+
+#decoracao
+{
+	background-color:transparent;
+	background-image:url(DECORACAO.png);
+	height:40px;
+	width:120px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	
+}
+
+#decoracao:hover
+{
+	background-image:url(DECORACAO_1.png);
+	background-repeat:no-repeat;
+}
+#buffet
+{
+	background-color:transparent;
+	background-image:url(BUFFET.png);
+	height:40px;
+	width:120px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	
+}
+#buffet:hover
+{
+	background-image:url(BUFFET_1.png);
+	background-repeat:no-repeat;
+}
+
+#contato
+{
+	background-color:transparent;
+	background-image:url(CONTATO.png);
+	height:40px;
+	width:120px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	
+}
+#contato:hover
+{
+	background-image:url(CONTATO_1.png);
+	background-repeat:no-repeat;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------- painel de imagens do topo ---------------------- */
+.painel_imgs
+{
+	background-image: url(painel_img.jpg);
+	background-repeat: repeat-x;
+	background-color: blue;/*mudar para rgb*/
+	height:360px;
+	width: 1200px;
+	margin-top: 0px;
+	float:none;
+}
+/*
+.painel_imgs img
+{
+	margin-left:0px;
+	margin-top:20px;
+	float:none;
+}
+*/
+.seta_left{
+	width:40px;
+	height:360;
+	float: left;
+	margin-bottom:50px;
+	margin-top:110px;
+	margin-left:30px;
+	
+	
+}
+.seta_rigth
+
+{
+	width:40px;
+	height:360;
+	float: right;
+	margin-bottom:50px;
+	margin-top:110px;
+	margin-right:30px;	
+}
+
+.seta_rigth img
+{
+	margin-bottom:50px;
+	margin-top:55px;
+	float: left;
+
+}
+
+.seta_left img
+{
+	margin-bottom:50px;
+	margin-top:55px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------*/
+
+/* -------------------------- caixas menus do centro da página ------------------- */
+
+.caixas_menu1
+{
+	width: 320px;
+	height: 260px;
+	background-color: yellow;/*mudar para rgb*/
+	background-image:url(anoite.jpg);
+	background-repeat:no-repeat;
+	float: left; 
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.caixas_menu1 p
+{
+	text-align: center;
+	float: none;
+	margin-top: -2px;
+	padding-top: 10px;
+	font-family: vivaldi;
+	font-size: 25px;
+}
+
+.caixa_menu_opcao1
+{
+	background:#de9c9f;
+	width: 320px;
+	height: 55px;
+}
+.caixa_menu_opcao1:hover
+{
+	background:#C99;
+	box-shadow:inset 0 0 0 8px #FFF;
+}
+.caixas_menu2 p
+{
+	text-align: center;
+	float: none;
+	margin-top: -2px;
+	padding-top: 10px;
+	font-family: vivaldi;
+	font-size: 25px;
+}
+.caixas_menu2
+{
+	width: 320px;
+	height: 260px;
+	background-color: black;/*mudar para rgb*/
+	background-image:url(ar_livre_2.jpg);
+	background-repeat:no-repeat;
+	float: left; 
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.caixa_menu_opcao2
+{
+	background-color: #de9c9f;
+	width: 320px;
+	height: 55px;
+}
+.caixa_menu_opcao2:hover
+{
+	background:#C99;
+	box-shadow:inset 0 0 0 8px #FFF;
+}
+.caixas_menu3
+{
+	width: 320px;
+	height: 260px;
+	background-color: blue;/*mudar para rgb*/
+	background-image:url(igreja_2_1.jpg);
+	background-repeat:no-repeat;;
+	float: right; 
+	margin-right: 80px;
+	margin-top: 20px;
+}
+.caixas_menu3 p
+{
+	text-align: center;
+	float: none;
+	margin-top: -2px;
+	padding-top: 10px;
+	font-family: vivaldi;
+	font-size: 25px;
+}
+.caixa_menu_opcao3
+{
+	background-color: #de9c9f;
+	width: 320px;
+	height: 55px;
+	
+}
+
+.caixa_menu_opcao3:hover
+{
+	background:#C99;
+	box-shadow:inset 0 0 0 8px #FFF;
+}
+
+/*------------------------------------------------------------------------------*/
+/*------------------------- colunas de texto página home--------------------------------------*/
+.colunas_texto
+{
+	float: left;
+	width: 1200px;
+	right: 600px;
+	text-indent: 1.5em;
+	text-align: justify;
+	margin-top: 10px;	
+	font-family: vivaldi;
+}
+.colunas_texto p
+{
+	font-size: 20px;
+	margin-right: 10px;
+
+}
+
+
+#texto_coluna1
+{
+	
+	height: 280px;
+	width: 500px;
+	margin-top: 0px;
+	margin-left: 80px;
+	float: left;
+	
+}
+.texto_coluna2
+{
+	height: 280px;
+	width: 500px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 0px;
+}
+.texto_coluna2 p
+{
+	margin-left: 0px;
+	font-family: vivaldi;
+	font-size:20px;	
+}
+
+.linha_horizontal1
+{
+	width: 460px;
+	height: 1px;
+	background-color: black;
+	float: left;
+	margin-left: 110px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.linha_horizontal2
+{
+	width: 470px;
+	height: 1px;
+	background-color: black;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+#linha
+{
+	width: 1px;
+	height: 220px;
+	background-color: black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/* ---------------------- rodapé ----------------------------- */
+#rodape
+{
+	background-color:#de9c9f;/*mudar para rgb*/
+	/*background-image: url(vector_logo_LOGO_rodape.png);*/
+	background-image: url("teste_rodape.png");
+	background-repeat: repeat-x;
+	/*background-repeat: no-repeat;*/
+	height: 60px;
+	width: 1200px;
+	float: left; 
+	margin-bottom:10px;
+	margin-top:0px;
+	
+}
+.rodape_img img
+{
+	float: left;
+	margin-left: 20px;
+}
+/*---------------------------------------------------------------*/
+
+/*-------------------------- menu rodapé  ----------------------------- */
+ul#menu_rodape
+{
+	margin-left: 290px;
+	margin-top: 20px;
+}
+ul#menu_rodape a
+{
+	text-decoration: none;
+	font-size: 14px;
+	color:#000;
+}
+ul#menu_rodape a:hover
+{
+	color: #FFF;
+}
+
+ul#menu_rodape li
+{
+	display: inline;
+	margin-left: 20px;
+	font-family: Bradley Hand ITC;
+	font-weight: bold;
+	color:#000;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+
+/*---------------- página galeria - peculiaridades ----------------------- */
+#conjunto_menubar
+{
+	float:left;
+	padding-top:20px;
+	height:500px;
+	width:555px;
+	
+}
+.coluna1_galeria
+{
+	background-color:#ecc8ca;
+	height: 500px;
+	width: 555px;
+	float: none;
+	margin-left: 20px;
+	margin-top: 20px;
+
+
+}
+.coluna1_galeria p
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:justify;
+	text-indent:1.5em;
+}
+.coluna1_galeria img
+{
+	margin-left:120px;
+	box-shadow:0 0 0 2px #FFFFFF;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+.coluna2_galeria
+{
+	background-color:#ecc8ca;
+	height: 500px;
+	width:580px;	
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-right:20px;
+	float:right;
+}
+
+.coluna2_galeria p
+
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:justify;
+	text-indent:1.5em;
+}
+.coluna2_galeria img
+{
+	margin-left:180px;
+	margin-top:30px;
+	margin-bottom:30px;
+	box-shadow:0 0 0 2px #FFFFFF;
+}
+
+#MenuBar1
+{
+	margin-left:40px;
+	margin-top:10px;
+	margin-bottom:-20px;
+	background-color:#FFF;
+	width:555px;
+}
+/*/////////////////////////////////////////////////////////////////*/
+/*---------------------- página contato - peculiaridades ------------------*/
+.coluna1_contato
+{
+	text-align:left;
+	background-color: #ecc8ca;
+	reigth: 650px;
+	width: 650px;	
+	margin-left:20px;
+	margin-top: 20px;
+	float:left;
+	box-shadow: 0 0 0 6px #de9c9f;
+	
+	
+}
+
+.coluna2_contato
+{
+	background-color:#ecc8ca;
+	reigth: 650px;
+	width: 480px;
+	float: right;
+	margin-top: 20px;
+	margin-left:20px;
+	margin-right:20px;
+	box-shadow: 0 0 0 6px #de9c9f;
+}
+
+
+.coluna1_contato form
+{
+	reigth: 650px;
+	width: 650px;
+	display: inline-block;
+	padding-left:10px;
+}
+/*------------------------------------------------------------------------*/
+
+/* ----------------------- tags de texto -----------------------*/
+h3
+{
+	font-family: vivaldi;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 3px;
+}
+h5
+{
+	text-align:center;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-bottom:-15px;
+}
+h6
+{
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:10px;
+	margin-bottom: -10px;
+}
+

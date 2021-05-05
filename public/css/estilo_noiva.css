@@ -1,0 +1,151 @@
+/*FOLHA DE ESTILO HOME*/
+body
+{
+	/*background-image: url(teste_fundo_2.jpg);ato falho, tentativa de cortar um pedaço do fundo do layout
+	background-repeat: repeat-x;*/
+	background-color: white;
+}
+#fundo_geral
+{
+	background-image: url(fundao_.png); ;/*mudar para rgb*/
+	background-repeat: repeat;
+	height: 1093px;
+	width: 1057px;
+	margin-left: 145px;
+}
+/* ------------------- divs relacionadas ao topo do site -------------------*/
+#topo
+{
+	background-color:#ecc8ca;/*mudar para rgb*/
+	background-image: url(vector_logo_LOGO.png);
+	background-repeat: no-repeat;
+	height: 80px;
+	width:1057px; 
+}
+.topo_text 
+{
+	
+	text-align: center;
+	font-family: Brush Script MT;
+	font-size: 30px;
+	padding-top: 0.1px;
+}
+
+#icon_lupa_
+{
+	float: right;
+	margin-right: 2px;
+	padding-top: 0.2px;
+	margin-top: 8px;
+}
+
+#box_pesquisa
+{
+	background-color:#e6e6e6;
+  	border:solid 1px;
+  	border-radius:15px;
+  	width:200px;
+  	height: 25px;
+  	float: right;
+  	margin-right: 20px;
+  	align-items: center;
+  	padding-top: 0.2px;
+  	margin-top: 10px;
+}
+
+#txt_pesquisa{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:12px;
+  border:none;
+  height:20px;
+  width:180px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*---------------------------- painel de imagens do topo ---------------------- */
+#painel_imgs
+{
+	background-image: url(painel_img.jpg);
+	background-repeat: repeat-x;
+	background-color: blue;/*mudar para rgb*/
+	height:517;
+	width: 1093;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/* -------------------------- caixas menus do centro da página ------------------- */
+
+#caixas_menu1
+{
+	width: 265px;
+	height: 248px;
+	background-color: yellow;/*mudar para rgb*/
+	float: left; 
+	margin-left: 110px;
+	
+}
+#caixa_menu_opcao1
+{
+	background-color: purple;
+	width: 265px;
+	height: 55px;
+}
+
+#caixas_menu2
+{
+	width: 265px;
+	height: 248px;
+	background-color: black;/*mudar para rgb*/
+	float: left; 
+	margin-left: 20px;
+	
+}
+
+#caixa_menu_opcao2
+{
+	background-color: red;
+	width: 265px;
+	height: 55px;
+	}
+
+#caixas_menu3
+{
+	width: 265px;
+	height: 248px;
+	background-color: blue;/*mudar para rgb*/
+	float: left; 
+	margin-left: 20px;
+}
+#caixa_menu_opcao3
+{
+	background-color: white;
+	width: 265px;
+	height: 55px;
+	
+}
+/*------------------------------------------------------------------------------*/
+/*------------------------- colunas de texto --------------------------------------*/
+#texto_coluna1
+{
+	
+	height: 200px;
+	width: 300px;
+}
+#texto_coluna2
+{
+
+}
+#rodape
+{
+	background-color:#de9c9f;/*mudar para rgb*/
+	background-image: url(vector_logo_LOGO_rodape.png);
+	background-repeat: no-repeat;
+	height: 80px;
+	width:1057px;
+	line-height: 
+}

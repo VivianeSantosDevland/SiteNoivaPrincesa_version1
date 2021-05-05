@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contato</title>
+<link href="estilo_noiva_fin.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+#fundo_geral
+{
+	/*background-image: url(fundao_.png); ;/*mudar para rgb
+	background-repeat: repeat;*/
+	background-color: #ffffff;
+	height: 1230px;
+	width: 1200px;
+	margin-left: 75px;
+	position: absolute;
+}
+#rodape
+{
+	background-color:#de9c9f;/*mudar para rgb*/
+	/*background-image: url(vector_logo_LOGO_rodape.png);*/
+	background-image: url("teste_rodape.png");
+	background-repeat: repeat-x;
+	/*background-repeat: no-repeat;*/
+	height: 60px;
+	width: 1200px;
+	float: left; 
+	margin-bottom:10px;
+	margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+	<div id="fundo_geral"><!-- aqui começa a div fundo_geral, colocar margem interna nos lados p/ recuar o conteúdo de dentro-->
+	
+	
+	<div id="topo" class="topo_text"><!-- aqui começa a div cabecalho_superior-->
+					<div id="box_pesquisa"><!-- div botão de pesquisa começa aqui--> 
+						<input type="text" id="txt_pesquisa" placeholder="  Buscar..." />
+					</div><!-- div de pesquisa termina aqui -->
+					<div id="icon_lupa_"><!-- div ícone da lupa começa aqui-->
+					<img src="icon_lupa.png" id="btn_busca" alt="Buscar"/><!--div de ícone lupa termina aqui-->	
+					</div>
+							  <p>Realizando sonhos</p>
+			
+			</div><!--Aqui termina a div cabecalho_superior-->
+			
+	
+                  <!--------------------------------------MENU PRINCIPAL-------------------------------------->
+            
+          <div class="menu_principal">
+            	<a href="index.html"><div id="home">
+                </div></a><!-- PÁGINA FUNCIONANDO -->
+                <a href="#"><div id="sobre"></div></a>
+                <a href="galeria.html"><div id="galeria"></div></a><!-- PÁGINA FUNCIONANDO -->
+                <a href="#"><div id="decoracao"></div></a>
+                <a href="#"><div id="buffet"></div></a>
+                <a href="contato.html"><div id="contato"></div></a><!-- PÁGINA FUNCIONANDO -->
+            
+            </div>
+            
+            <!---------------------------------------------------------------------------->
+            
+    
+	<div class="painel_imgs"><!-- aqui começa a div painel_imgs-->
+			  <div class="seta_left">
+              <a href="#"><img src="seta_left1.png"/></a>
+              </div>
+		    <img src="teste_praia_2.jpg" style="margin-left:60px; margin-top:30px;"/>
+            <div class="seta_rigth">
+            	<a href="#"><img src="seta_rigth1.png"/></a>
+            </div>            
+      </div><!-- aqui termina a div painel_imgs-->
+	
+            <div class="coluna1_contato">
+            <h5>Formulário para contato</h5><br/>
+            <br/><hr width="500" size="1px" color="#000000">
+            <br/>
+            <form action="" name="form1" id="form1">
+
+    <label for="nome">Nome:</label>
+    <input name="nome" type="text" id="nome" size="30" maxlength="40" />	
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    		 <label for="email">Email:</label>
+    <input name="email" type="text" id="email" size="30" maxlength="40" />
+  
+  <br/><br />
+    <label for="senha_pra_que_mesmo?">Senha:</label>
+    <input name="senha_pra_que_mesmo?" type="password" id="senha_pra_que_mesmo?" size="10" maxlength="10" />
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="list_paises_inuteis">País:&nbsp;&nbsp;&nbsp;</label>
+    <select name="list_paises_inuteis" id="list_paises_inuteis">
+      <option value="7 a 1 pra Alemanha">Brasil</option>
+      <option value="africa">África</option>
+      <option value="australia">Austrália</option>
+      <option value="belgica">Bélgica</option>
+      <option value="trump_pato">EUA</option>
+    </select>
+  <br /><br />
+  <table width="650px">
+  <tr>
+  	<th><h4>Gostaria de ter:</h4></th>
+    <th><h4>Acho interessante:</h4></th>
+   </tr> 
+   	<td>
+    	<label>
+      <input type="radio" name="RadioGroup_foco_do_cliente" value="praia" id="RadioGroup_foco_do_cliente_0" />
+    Casamento na praia</label>
+    <br />
+    <label>
+      <input type="radio" name="RadioGroup_foco_do_cliente" value="piscina?" id="RadioGroup_foco_do_cliente_1" />
+      Casamento na pscina</label>
+    <br />
+    <label>
+      <input type="radio" name="RadioGroup_foco_do_cliente" value="dia" id="RadioGroup_foco_do_cliente_2" />
+      Casamento ao ar livre/dia</label>
+    <br />
+    <label>
+      <input type="radio" name="RadioGroup_foco_do_cliente" value="noite" id="RadioGroup_foco_do_cliente_3" />
+      casamento ao ar livre/noite</label>
+    <br />
+    <label>
+      <input type="radio" name="RadioGroup_foco_do_cliente" value="espaço" id="RadioGroup_foco_do_cliente_4" />
+      Casamento em espaço fechado</label>
+    <br />
+    <label>
+      <input type="radio" name="RadioGroup_foco_do_cliente" value="outro_pra_dar 6 opções" id="RadioGroup_foco_do_cliente_5" />
+      Outro</label>
+    </td>
+    <td>
+    <label>
+      <input type="checkbox" name="Acho interessante:" value="rustica" id="Achointeressante:_0" />
+    Festa rústica no sítio/fazenda</label>
+    <br />
+    <label>
+      <input type="checkbox" name="Acho interessante:" value="formal" id="Achointeressante:_1" />
+      Festa formal em lugar fechado</label>
+    <br />
+    <label>
+      <input type="checkbox" name="Acho interessante:" value="praia" id="Achointeressante:_2" />
+      Festa na praia</label>
+    <br />
+    <label>
+      <input type="checkbox" name="Acho interessante:" value="noite e ar livre" id="Achointeressante:_3" />
+      Festa ao ar livre à noite</label>
+    <br />
+    <label>
+      <input type="checkbox" name="Acho interessante:" value="outro" id="Achointeressante:_4" />
+      Outro</label>      
+     	</td> 
+        <tr><td>
+     			<label for="textarea"><h4>Mensagem:</h4></label>
+    			<textarea name="textarea" id="textarea" cols="30" rows=			"5"></textarea>
+     </td>
+     <td> 
+     		<input type="submit" name="envia" id="envia" value="Enviar" />
+     		&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="limpa" id="limpa" value="Limpar" /></td> 
+     </tr>
+  </table><br/><br/><hr width="500" size="1px" color="#000000">
+  
+</form>
+			</div>
+            
+	  <div class="coluna2_contato">
+			 <h5>Encontre-nos!</h5>
+             <h6>Contato</h6>
+             <hr width="300" size="1px" color="#000000"><br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;Telefone: (011) 3655-8980&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: (210) 3667-9899<br/><br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;Email: noivaprincesaeventos@gmail.com
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <h6>Horário</h6><hr width="290" size="1px" color="#000000"><br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;Segunda à sexta: 08:00 ás 16:00<br/>
+                     &nbsp;&nbsp;&nbsp;&nbsp;Sábado: 08:00 ás 12:00
+        <h6>Endereço</h6>
+                    <hr width="290" size="1px" color="#000000">
+                    <br/>
+                     &nbsp;&nbsp;&nbsp;&nbsp;Rua da Paz, complexo da Saudade, s/n Belo Horizonte.
+                     <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="fic_mapa_fic.png" width="420px" alt="Mapa" border="1px;" ><br/><br/>
+           <hr width="400" size="1px" color="#000000"></div>
+	  <br/><br/>
+      
+			<div id="rodape" class="rodape_img"><!-- Aqui começa a div de rodapé -->
+				<img src="vector_logo_LOGO_rodape.png"/>
+				<ul id="menu_rodape">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="sobre.html">SOBRE NÓS</a></li>
+					<li><a href="galeria.html">GALERIA</a></li>
+					<li><a href="#">DECORAÇÃO</a></li>
+					<li><a href="#">BUFFET</a></li>
+					<li><a href="contato.html">CONTATO</a></li>
+				</ul>
+			</div><!-- Aqui termina a div de rodapé -->
+			<p>&copy; 2019 Viviane de Souza</p>
+			<a href="#"><img src="redes_sociais.png" alt="redes sociais" style="float: right; margin-right: 15px;"></a>
+	</div><!--Aqui termina a div fundo_geral-->
+</body>
+</html>
