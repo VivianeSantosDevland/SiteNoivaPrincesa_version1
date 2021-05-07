@@ -41,6 +41,7 @@ p
 	background-repeat: no-repeat;
 	height: 80px;
 	width: 1200px;
+	margin-top: -10px;
 	
 }
 .topo_text p
@@ -58,7 +59,7 @@ p
 	float: right;
 	margin-right: 2px;
 	padding-top: 0.2px;
-	margin-top: 8px;
+	margin-top: 20px;
 }
 
 #box_pesquisa
@@ -72,7 +73,7 @@ p
   	margin-right: 20px;
   	align-items: center;
   	padding-top: 0.2px;
-  	margin-top: 10px;
+  	margin-top: 20px;
 }
 
 #txt_pesquisa{
@@ -590,7 +591,7 @@ ul#menu_rodape li
 {
 	text-align:left;
 	background-color: #ecc8ca;
-	reigth: 650px;
+	height: 650px;
 	width: 650px;	
 	margin-left:20px;
 	margin-top: 20px;
@@ -603,7 +604,7 @@ ul#menu_rodape li
 .coluna2_contato
 {
 	background-color:#ecc8ca;
-	reigth: 650px;
+	height: 650px;
 	width: 480px;
 	float: right;
 	margin-top: 20px;
@@ -615,7 +616,7 @@ ul#menu_rodape li
 
 .coluna1_contato form
 {
-	reigth: 650px;
+	height: 650px;
 	width: 650px;
 	display: inline-block;
 	padding-left:10px;
